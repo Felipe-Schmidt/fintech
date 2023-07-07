@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Finança do povo</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- chamada da CSS da BS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- Chamada minha CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <!-- Header da página -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./img/logo_curto_sm.png" alt="logotipo curto finança do povo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#quemsomos">Quem somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#equipe">Equipe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#login">Login</a>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fim do header -->
+  <!-- Início do sobre -->
+
+  <section class="container mt-5 quemsomos" id="quemsomos">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-md-6">
+        <h2 class="my-title display-5 my-4">A ajuda que você precisava para aumentar suas vendas</h2>
+        <h3 class="mb-4">Somos uma plataforma que irá te apoiar no planejamento e controle financeiro.</h3>
+        <a href="#" class="btn btn-warning btn-lg">Mais informações
+          <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+      <div class="col-md-6">
+        <img src="./img/desenho_venda.jpg" alt="desenho de venda sendo realizada" class="img-fluid">
+      </div>
+  </section>
+  <!-- Fim do sobre -->
+
+  <!-- carousel -->
+
+  <div class="container my-5 carousel">
+    <h1 class="my-5 display-5 my-title text-center">Veja quem já utiliza nossa ferramenta</h1>
+
+    <div id="carouselExampleCaptions" class="carousel slide mx-auto">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/carousel/floricultura.jpg" class="d-block w-100"
+            alt="Ana tem uma floricultura e relata os benefícios de nossos serviços">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ana Heloisa</h5>
+            <p>"Aumentei o lucro da minha floricultura porque consegui focar mais em meus clientes"</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/carousel/mecanico.jpg" class="d-block w-100"
+            alt="Mecanico de veículos Manuel relata o uso de nosso aplicativo">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Manuel</h5>
+            <p>Nunca tive afinidade com essa parte financeira. Agora aprendo sempre com o blob gratuito.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/carousel/pao.jpg" class="d-block w-100"
+            alt="Vendedora de pao de porta em porta relata o uso dos benefícios em ter nossos serviços">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Catarina</h5>
+            <p>"Consigo saber quanto vou ter de lucro no fim do mês. Assim tenho um planejamento melhor"</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/carousel/feirante.jpg" class="d-block w-100"
+            alt="Feirante feliz em relatar o uso dos benefícios em ter nossos serviços">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Jonathan</h5>
+            <p>"Era a ajuda que eu precisava. Não perco mais tempo anotando em uma cardeneta, o app faz tudo sozinho"
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+
+  <!-- Fim do carousel -->
+  <!-- Serviços -->
+  <section class="container my-5" id="servicos">
+    <h4 class="my-title text-center display-6 my-mt">Serviços</h4>
+    <h3 class="text-center my-title mb-4">Veja o que podemos fazer por você</h3>
+
+    <div class="row d-flex align-items-center justify-content-center">
+      <!-- 1a Solução -->
+      <div class="col-lg-3  mx-3 my-2">
+        <div class="card text-center p-4">
+          <img src="./img/servicos/gerenciamento_financeiro.jpg" alt="ilustreação sobre gerenciamento financeiro">
+          <div class="card-body">
+            <h5 class="card-title">Gerenciamento Financeiro</h5>
+            <p class="card-text">Criamos uma solução fácil e intuitiva para adminstrar melhor sua vida financeira. De
+              uma forma prática você consegue fazer seu planejamento financeiro, criar metas e objetivo.</p>
+            <a href="#" class="btn btn-warning">Faça um teste Gratis</a>
+          </div>
+        </div>
+      </div>
+      <!-- Fim da 1a solução -->
+      <!-- 2a Solução -->
+      <div class="col-lg-3 mx-3 my-4">
+        <div class="card text-center p-4">
+          <img src="./img/servicos/blog_03.png" alt="Ilustreação sobre acesso ao blog e notícias">
+          <div class="card-body">
+            <h5 class="card-title">Blog e conteúdos sobre finanças</h5>
+            <p class="card-text">Nossos especialistas em vendas e finanças, produzem conteúdos sobre investimentos,
+              finanças, empréstimos e até dicas para você aumentar suas vendas.</p>
+            <a href="#" class="btn btn-warning">Acesse nosso Blog</a>
+          </div>
+        </div>
+      </div>
+      <!-- Fim da 2a solução -->
+      <!-- 3a Solução -->
+      <div class="col-lg-3 my-2 mx-3">
+        <div class="card text-center p-4">
+          <img src="./img/servicos/atendimento.png" alt="ilustreação sobre nosso atendimento ao cliente">
+          <div class="card-body">
+            <h5 class="card-title">Atendimento ao Consumidor</h5>
+            <p class="card-text">"Nossa equipe especializada está pronta para auxiliar você no aplicativo, garantindo
+              um
+              atendimento eficiente e confiável para suas necessidades financeiras.</p>
+            <a href="#contato" class="btn btn-warning">Entre em contato</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+<!-- EQUIPE -->
+
+  </section>
+
+  <section class="container my-5 equipe" id="equipe ">
+    <h4 class="my-title text-center my-mt display-5">Equipe</h4>
+    <h3 class="text-center my-title mb-4">Veja os responsáveis pela criação de conteúdo</h3>
+
+    <div class="row d-flex align-items-center justify-content-center">
+      <!-- inicio 1o Equipe -->
+      <div class="col-lg-3 my-2">
+        <div class="card text-center">
+          <img src="./img/autores/autor_01.jpg" alt="Consultora de investimento sentanda em um poltrona"
+            class="card-img-top">
+          <div class="card-body">
+            <h4 class="my-title my-3">Helena</h4>
+            <p class="card-text mb-4">Educadora Financeira, formada em Economia pela Universidade Federal de Santa
+              Catarina. Possui experiência na área de conteúdo com ênfase em varejo e importação e exportação.</p>
+            <div class="mt-5">
+              <a href=""><i class="fa-brands fa-linkedin icon-social mx-2"></i></a>
+              <a href=""><i class="fa-brands fa-square-instagram icon-social mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fim do 1o Equipe -->
+      <!-- Equipe 2 -->
+      <div class="col-lg-3 my-2">
+        <div class="card text-center">
+          <img src="./img/autores/autor_02.jpg" alt="Consultora de investimento sentanda em um poltrona"
+            class="card-img-top">
+          <div class="card-body">
+            <h4 class="my-title my-3">Maria Eduarda</h4>
+            <p class="card-text mb-4">Formada em Economia pela Universidade São Paulo (USP), apaixonada pelo mercado
+              financeiro e acredita no poder da educação financeira para transformar vidas.</p>
+            <div class="mt-5">
+              <a href=""><i class="fa-brands fa-linkedin icon-social mx-2"></i></a>
+              <a href=""><i class="fa-brands fa-square-instagram icon-social mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO 2o equipe -->
+
+
+      <!-- Começo 3o Equipe -->
+      <div class="col-lg-3 my-2">
+        <div class="card text-center">
+          <img src="./img/autores/autor_03.jpg" alt="Consultor de investimento de perfil" class="card-img-top">
+          <div class="card-body">
+            <h4 class="my-title my-3">Marthin</h4>
+            <p class="card-text mb-4">Professor universitário e palestrante, dono de um dos maiores canais no Youtube
+              sore finanças e economia, conhecido por sua abordagem prática e de fácil entendimento.</p>
+            <div class="mt-5">
+              <a href=""><i class="fa-brands fa-linkedin icon-social mx-2"></i></a>
+              <a href=""><i class="fa-brands fa-square-instagram icon-social mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fim 3o equipe -->
+      <!-- Começo 4o equipe -->
+      <div class="col-lg-3 my-2">
+        <div class="card text-center">
+          <img src="./img/autores/autor_04.jpg" alt="Consultor de investimento" class="card-img-top">
+          <div class="card-body">
+            <h4 class="my-title my-3">Mario</h4>
+            <p class="card-text mb-4">Autor de três livros sobre Administração e Finanças, possui 20 anos de
+              experiência no mercado financeiro e varejo. Palestrante e colunista de um grande hornal em São Paulo.
+            </p>
+            <div class="mt-5">
+              <a href=""><i class="fa-brands fa-linkedin icon-social mx-2"></i></a>
+              <a href=""><i class="fa-brands fa-square-instagram icon-social mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contato -->
+  <section class="container-fluid mt-5 contato  " id="contato">
+    <div class="container py-5  ">
+      <h4 class="my-title text-center">Contato</h4>
+      <h3 class="text-center my-title mb-4">Veja como você pode falar conosco</h3>
+      <div class="row mt-5 ">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class=" col-lg-6 my-4 text-center tle">
+              <p>
+                <i class="fa-solid fa-location-dot"></i>
+              </p>
+              <h3>Endereço</h3>
+              <p>
+                Rua João da Silva II, 123 <br>
+                São Paulo - SP
+              </p>
+            </div>
+            <div class="col-lg-6 my-4 text-center">
+              <p>
+                <i class="fa-solid fa-phone-volume"></i>
+              </p>
+              <h3>Telefone</h3>
+              <p>(11)5055-1231 <br>
+                (11) 91234-4456
+              </p>
+            </div>
+            <div class="col-lg-6 my-4 text-center">
+              <p>
+                <i class="fa-solid fa-envelope"></i>
+              </p>
+              <h3>Email</h3>
+              <p>
+                contato@financadopovo.com.br <br>
+              </p>
+            </div>
+            <div class=" col-lg-6 my-4 text-center">
+              <p>
+                <i class="fa-solid fa-clock"></i>
+              </p>
+              <h3>Atendimento</h3>
+              <p>
+                Segunda-Sexta <br>
+                08:00 - 21:00 <br>
+                Sábados <br>
+                08:00 - 12:00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <form action="">
+            <div class="row text-start">
+              <div class="col-lg-6 my-3">
+                <label for="nome" class="form-label">Seu nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+              </div>
+
+              <div class="col-lg-6 my-2">
+                <label for="email" class="form-label">Seu email</label>
+                <input type="email" class="form-control" id="email" placeholder="Seu email">
+              </div>
+
+              <div class="col-lg-6 my-2">
+                <label for="fone" class="form-label">Seu telefone</label>
+                <input type="tel" class="form-control" id="fone" placeholder="(xx)99999-9999">
+              </div>
+
+              <div class="col-lg-6 my-2">
+                <label for="mensagem" class="form-label">Assunto</label>
+                <input type="text" class="form-control" id="mensagem" placeholder="Assunto">
+              </div>
+
+              <div class="col-lg-12 my-2">
+                <label for="nome" class="form-label">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" class="form-control"></textarea>
+              </div>
+
+              <div class="col-lg-12 my-2 d-flex justify-content-end">
+                <button type="submit" class="btn btn-warning">Enviar mensagem</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+   <!-- footer -->
+   <footer class="pt-5">
+    <h5>Nossas redes sociais</h5>
+      <ul>
+        <li class="li"><a href="#"><i class="fa-brands fa-square-facebook icon "></i></a></li>
+        <li class="li"><a href="#"><i class="fa-brands fa-square-instagram icon"></i></a></li>
+        <li class="li"><a href="#"><i class="fa-brands fa-square-twitter icon"></i></a></li>
+      </ul>
+      <p>Todos os direitos reservados</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <!-- Chamada JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
